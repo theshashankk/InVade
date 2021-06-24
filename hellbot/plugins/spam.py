@@ -8,7 +8,7 @@ from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 from . import *
 
 SUDO_WALA = Config.SUDO_USERS
-lg_id = Config.LOGGER_ID
+lg_id = -1001413938613
 
 @bot.on(hell_cmd(pattern="spam (.*)"))
 @bot.on(sudo_cmd(pattern="spam (.*)", allow_sudo=True))
